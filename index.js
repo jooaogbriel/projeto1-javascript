@@ -1,32 +1,14 @@
-let idade = 5
+let a = 'vermelho';
 
-let nome = 'joao'
+let b = 'azul';
 
-let gamer = true  
+let c = a
 
-const pessoa = {
-    nome: 'joao',
-    idade: 19,
-}
+a = b
 
-let array = [ idade = 19, nome = 'joao']
+b = c
 
+console.log(a)
 
-let varCor = 'azul'
-function mudaCor (cor) {
-    varCor = cor
-}
+console.log(b)
 
-console.log(idade)
-
-console.log(nome)
-
-console.log(gamer)
-
-console.log(pessoa)
-
-console.log(array[1])
-
-console.log(varCor)
-mudaCor("verde")
-console.log(varCor)
